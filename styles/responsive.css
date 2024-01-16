@@ -1,0 +1,101 @@
+@media screen and (max-width: 600px) {
+
+    /* nav styles */
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        width: auto;
+        margin-top: 18px;
+        margin-bottom: 17px;
+    }
+
+    .logo>img {
+        margin-left: 20px;
+    }
+
+    /* banner styles */
+    .banner-section {
+        width: 335px;
+        height: 483px;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .banner-title {
+        font-size: 22px;
+    }
+
+    .banner-description {
+        width: 380px;
+        font-size: 12px;
+        margin-bottom: 0%;
+    }
+
+    .input-form {
+        width: 287px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .input-form #inp2,
+    #inp3 {
+        width: 255px;
+        margin-right: 0;
+    }
+
+    #inp1 {
+        width: 270px;
+        margin-left: 16px;
+    }
+
+    .btn-primary {
+        width: 270px;
+    }
+
+    /* our popular tour styles */
+    .popular-tour-section {
+        gap: 50px;
+        margin: 0;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tour-des {
+        width: 500px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .head-title {
+        font-size: 20px;
+    }
+
+    .point-list li {
+        width: 500px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .scnd-des {
+        width: 500px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .choose-section p{
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;  
+    }
+}
