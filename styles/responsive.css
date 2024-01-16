@@ -93,9 +93,36 @@
         line-height: 24px;
     }
 
-    .choose-section p{
+    .choose-section p {
         width: 309px;
         font-size: 14px;
-        line-height: 24px;  
+        line-height: 24px;
+    }
+
+    .image-collage .first-clm,
+    .second-clm,
+    .last-clm {
+        flex-direction: column;
+    }
+
+    .single-content img {
+        width: 550px;
+        height: 391px;
+    }
+
+    .box-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .price {
+        margin-left: 0;
+    }
+
+    .box-container .hotels,
+    .service,
+    .price {
+        width: 335px;
+        height: 289px;
+        margin-left: 15%;
     }
 }

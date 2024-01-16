@@ -180,17 +180,76 @@ li {
 
 /* choose section styles */
 
-.choose-section{
+.choose-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 48px;
 }
 
-.image-collage .first-clm, .second-clm, .last-clm{
+.image-collage .first-clm,
+.second-clm,
+.last-clm {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
+}
+
+.single-content {
+    position: relative;
+    text-align: center;
+}
+
+.centerd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.price{
+    margin-left: 50%;
+}
+
+.box-container .head-title{
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.box-container .hotels,
+.service,
+.price {
+    width: 505px;
+    height: 248px;
+    padding: 32px;
+}
+
+.hotels {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
