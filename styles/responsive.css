@@ -125,4 +125,37 @@
         height: 289px;
         margin-left: 15%;
     }
+
+    .newsletter-container {
+        flex-direction: column;
+        margin-left: 2.5%;
+    }
+
+    .newsletter-image img {
+        width: 550px;
+        height: 350px;
+    }
+
+    .position {
+        width: 224px;
+        height: 80px;
+    }
+
+    .position p {
+        font-size: 15px;
+
+    }
+
+    .position h2 {
+        font-size: 21px;
+    }
+
+    .footer {
+        width: 475px;
+        height: 500px;
+    }
+
+    .footer-logo img{
+        padding-top: 0px;
+    }
 }
